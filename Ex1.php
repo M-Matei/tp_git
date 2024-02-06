@@ -4,9 +4,8 @@
    <title></title>
 <link rel="stylesheet" type="text/css" href="styles.css"> </head>
 <body>
-<h1>Mon fichier HTML</h1>
-<?php
-    echo date('d m Y');
-?>
+    <h1>Mon fichier HTML</h1>
+    <p>Nous sommes le <?php date(D-M-Y); ?></p>
+    <p>Et je teste git et VSCode </p>
 </body>
 </html>
